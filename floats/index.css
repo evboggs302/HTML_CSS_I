@@ -1,0 +1,33 @@
+body {
+    background-color: green
+}
+
+div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+
+    border: solid 5px black;
+
+
+}
+
+.box{
+    background-color: purple;
+    float: left;
+    clear: both;
+}
+
+#second-box {
+    background-color: yellow;
+    float: right;
+    clear: both;
+}
+
+div:nth-child(5) {
+    background-color: black;
+    float: right;
+    clear: both;
+}
